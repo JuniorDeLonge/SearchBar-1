@@ -93,14 +93,13 @@ body {
     }
 
     .search-bar input {
-        width: 230px;
+        flex: 1; 
         padding: 20px;
         margin: 2px;
     }
 
     .search-bar button {
-        width: 100%;
+        width: 60px; 
         margin: 2px;
-
     }
 }
