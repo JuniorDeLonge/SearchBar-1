@@ -78,7 +78,7 @@ body {
 
 .search-bar button img {
     width: 30px;
-    height: 30px; 
+    height: 30px;
     transition: filter 0.3s ease;
 }
 
@@ -90,17 +90,17 @@ body {
 @media (max-width: 600px) {
     .search-bar {
         flex-direction: row;
-        padding: 10px;
     }
 
     .search-bar input {
         width: 230px;
-        margin-bottom: 5px;
-         
+        padding: 20px;
+        margin: 2px;
     }
 
     .search-bar button {
         width: 100%;
+        margin: 2px;
+
     }
 }
-
