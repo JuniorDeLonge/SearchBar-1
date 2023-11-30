@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="searchbar.css">
+    <link rel="shortcut icon" href="icons-search.png">
+    <title>Search Bar | @juniordelonge</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="search-bar" onsubmit="return searchGoogle()">
+            <input type="text" placeholder="Pesquisar na Web" id="searchInput" autocomplete="off">
+            <button type="submit"><img src="icons-search.png"></button>
+        </form>
+    </div>
+
+    <div id="searchResults" class="container"></div>
+
+    <script src="searchbar.js"></script>
+</body>
+
+</html>
