@@ -91,7 +91,7 @@
 @media only screen and (max-width: 600px) {
     .search-bar {
         padding: 10px;
-        margin: 100%;
+        margin: 0; /* Corrigido aqui para remover a margem indesejada */
     }
 
     .search-bar input {
