@@ -94,11 +94,11 @@ body {
 #searchResults {
     display: none;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 5%;
     flex-direction: column;
     flex-wrap: nowrap;
-    gap: 20px;
+    gap: 30px;
     color: #e4e4e4;
     flex: 1 0 auto;
 }
