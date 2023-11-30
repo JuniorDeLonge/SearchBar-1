@@ -80,7 +80,7 @@
 
 .search-bar button img {
     width: 30px;
-    height: 30px; /* Adjusted height for better alignment */
+    height: 30px; 
     transition: filter 0.3s ease;
 }
 
@@ -103,15 +103,7 @@
 
     .search-bar input {
         flex: 1;
-        padding: 15px 10px;
-        font-size: 1rem;
+        padding: 10px;
     }
 
-    .header-text {
-        font-size: 1.5rem;
-    }
-
-    .content {
-        margin-top: 10px;
-    }
 }
