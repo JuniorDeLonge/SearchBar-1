@@ -82,3 +82,20 @@
 .search-bar button:hover img {
     filter: invert(100%);
 }
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .search-bar {
+        padding: 5px 10px;
+    }
+    
+    .search-bar input {
+        padding: 15px 10px;
+        font-size: 1rem;
+    }
+    
+    .search-bar button {
+        width: 50px;
+        height: 50px;
+    }
+}
