@@ -18,6 +18,7 @@
 }
 
 .search-bar {
+    flex: 1;
     width: 100%;
     max-width: 700px;
     background: #54049f;
@@ -28,6 +29,7 @@
 }
 
 .search-bar input {
+    flex: 1;
     background: transparent;
     border: 0;
     outline: none;
