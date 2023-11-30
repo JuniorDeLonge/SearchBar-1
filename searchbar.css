@@ -92,7 +92,7 @@
 @media only screen and (max-width: 600px) {
     .search-bar {
         padding: 10px;
-        margin: 0;
+        margin: 15px;
         flex-direction: row;
         align-items: center;
         display: flex;
