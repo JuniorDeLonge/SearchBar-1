@@ -10,15 +10,12 @@
 </head>
 
 <body>
+    <form class="search-bar" onsubmit="return searchGoogle()">
+        <input type="text" placeholder="Pesquisar na Web" id="searchInput" autocomplete="off">
+        <button type="submit"><img src="icons-search.png"></button>
+    </form>
 
-    <div class="container">
-        <form class="search-bar" onsubmit="return searchGoogle()">
-            <input type="text" placeholder="Pesquisar na Web" id="searchInput" autocomplete="off">
-            <button type="submit"><img src="icons-search.png"></button>
-        </form>
-    </div>
-
-    <div id="searchResults" class="container"></div>
+    <div id="searchResults"></div>
 
     <script src="searchbar.js"></script>
 </body>
