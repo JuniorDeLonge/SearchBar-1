@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<!-- @juniordelonge -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="searchbar.css">
-    <link rel="shortcut icon" href="icons-search.png">
+    <link rel="shortcut icon" href="icons-search.png" alt="Ícone de pesquisa">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Search Bar | @juniordelonge</title>
 </head>
 
 <body>
     <form class="search-bar" onsubmit="return searchGoogle()">
-        <input type="text" placeholder="Pesquisar na Web" id="searchInput" autocomplete="off">
-        <button type="submit"><img src="icons-search.png"></button>
+        <input type="text" placeholder="Pesquisar na Web" id="searchInput" autocomplete="off" required>
+        <button type="submit"><img src="icons-search.png" alt="Ícone de pesquisa"></button>
     </form>
 
-    <div id="searchResults"></div>
+    <section id="searchResults"></section>
+
+    <footer>
+        <nav>
+            <div class="footer-content">
+                <a href="#sobre">sobre</a>
+                <a href="https://www.instagram.com/juniordelonge">contato</a>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/juniordelonge"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/juniordelonge"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </nav>
+    </footer>
 
     <script src="searchbar.js"></script>
 </body>
