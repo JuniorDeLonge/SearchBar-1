@@ -87,21 +87,3 @@
 .search-bar button:hover img {
     filter: invert(100%);
 }
-
-/* Media Queries */
-@media only screen and (max-width: 600px) {
-    .search-bar {
-        padding: 10px;
-        margin: 15px;
-        flex-direction: row;
-        align-items: center;
-        display: flex;
-        justify-content: space-around;
-        align-content: center;
-    }
-
-    .search-bar input {
-        padding: 10px;
-    }
-
-}
