@@ -92,14 +92,23 @@ body {
         flex-direction: row;
     }
 
+    .search-bar .input-container,
+    .search-bar .button-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .search-bar input {
-        flex: 1; 
+        width: 90%; /* Ajuste isso de acordo com suas necessidades */
         padding: 20px;
         margin: 2px;
     }
 
     .search-bar button {
-        width: 60px; 
+        width: 60px; /* Ajuste isso de acordo com suas necessidades */
         margin: 2px;
     }
 }
+
