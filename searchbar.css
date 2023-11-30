@@ -19,6 +19,10 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 20px;
+    background-image: url("12.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .search-bar {
@@ -101,6 +105,8 @@ body {
     gap: 30px;
     color: #e4e4e4;
     flex: 1 0 auto;
+    background-color: #181718;
+    border-radius: 20px;
 }
 
 #searchResults a {
